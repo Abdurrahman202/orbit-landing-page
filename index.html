@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="Explore ORBIT, a concept for a calmer workspace with focused sessions, gentle lighting, and fewer distractions."
+  />
+
+  <meta name="theme-color" content="#101412" />
+
+  <title>ORBIT — Make room for focus</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- NAVIGATION -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="ORBIT home">
+        <span class="brand-mark" aria-hidden="true">◎</span>
+        <span>orbit</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="nav-links"
+        aria-label="Open navigation"
+        hidden
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#idea">The idea</a>
+        <a href="#experience">Experience</a>
+        <a href="#ritual">Your ritual</a>
+        <a class="nav-cta" href="#explore">
+          Meet your ORBIT <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero section" id="home" aria-labelledby="hero-title">
+      <div class="hero-glow" aria-hidden="true"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">
+            A little space. A clearer mind.
+          </p>
+
+          <h1 class="reveal" id="hero-title">
+            Less noise.<br />
+            <span>More in orbit.</span>
+          </h1>
+
+          <p class="hero-description reveal">
+            Meet a calmer kind of desk companion. A focus timer,
+            a gentle glow, and a small reminder to do one thing
+            at a time.
+          </p>
+
+          <div class="hero-actions reveal">
+            <a class="button button-primary" href="#experience">
+              Explore the experience
+              <span aria-hidden="true">↗</span>
+            </a>
+
+            <a class="button button-text" href="#ritual">
+              Find your rhythm
+              <span aria-hidden="true">↓</span>
+            </a>
+          </div>
+
+          <p class="hero-note reveal">
+            An independent product concept, built for this project.
+          </p>
+        </div>
+
+        <!-- Layered elements will form the CSS 3D product. -->
+        <div
+          class="product-stage reveal"
+          role="img"
+          aria-label="ORBIT concept device with a circular focus timer and a softly glowing base"
+        >
+          <div class="orbit-path orbit-path-one" aria-hidden="true"></div>
+          <div class="orbit-path orbit-path-two" aria-hidden="true"></div>
+
+          <div class="floating-label label-top" aria-hidden="true">
+            <span class="status-dot"></span>
+            A moment of clarity
+          </div>
+
+          <div class="product-tilt" aria-hidden="true">
+            <div class="device">
+              <div class="device-rim"></div>
+
+              <div class="device-face">
+                <span class="device-mode">FOCUS MODE</span>
+
+                <div class="timer-ring">
+                  <span class="device-time">25:00</span>
+                </div>
+
+                <span class="device-message">One thing at a time.</span>
+
+                <div class="device-indicators">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+
+              <div class="device-side"></div>
+              <div class="device-stand"></div>
+              <div class="device-base"></div>
+              <div class="device-light"></div>
+            </div>
+          </div>
+
+          <div class="product-shadow" aria-hidden="true"></div>
+
+          <div class="floating-label label-bottom" aria-hidden="true">
+            Designed to slow the rush.
+          </div>
+        </div>
+      </div>
+
+      <div class="container hero-bottom">
+        <span>DESIGNED AROUND YOUR ATTENTION</span>
+        <a href="#idea">
+          Take a closer look <span aria-hidden="true">↓</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- INTRODUCTION -->
+    <section class="intro section" id="idea" aria-labelledby="idea-title">
+      <div class="container intro-grid">
+        <p class="eyebrow reveal">01 / The idea</p>
+
+        <div>
+          <h2 class="section-title reveal" id="idea-title">
+            Your desk has enough things.<br />
+            <span>This one gives you space.</span>
+          </h2>
+
+          <p class="section-description reveal">
+            Another notification is the last thing you need.
+            ORBIT explores a simpler approach: choose a task,
+            set a rhythm, and let everything else wait.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section
+      class="experience section"
+      id="experience"
+      aria-labelledby="experience-title"
+    >
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">02 / The experience</p>
+            <h2 class="section-title" id="experience-title">
+              Small details.<br />
+              <span>A calmer routine.</span>
+            </h2>
+          </div>
+
+          <p class="section-description">
+            Three simple ideas, brought together in one quiet object.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card feature-card-large reveal">
+            <div class="card-topline">
+              <span class="feature-number">01</span>
+              <span class="feature-tag">FOCUS</span>
+            </div>
+
+            <div class="focus-visual" aria-hidden="true">
+              <div class="focus-orbit"></div>
+              <div class="focus-orbit"></div>
+              <div class="focus-core">25</div>
+            </div>
+
+            <div class="feature-copy">
+              <h3>A little structure. Room to think.</h3>
+              <p>
+                Give one task your attention with a clear,
+                easy-to-read session timer.
+              </p>
+            </div>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="card-topline">
+              <span class="feature-number">02</span>
+              <span class="feature-tag">AMBIENCE</span>
+            </div>
+
+            <div class="light-visual" aria-hidden="true">
+              <div class="light-halo"></div>
+              <div class="light-bar"></div>
+            </div>
+
+            <div class="feature-copy">
+              <h3>Set a softer mood.</h3>
+              <p>
+                Imagine a gentle pool of light that makes your
+                workspace feel a little more yours.
+              </p>
+            </div>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="card-topline">
+              <span class="feature-number">03</span>
+              <span class="feature-tag">PAUSE</span>
+            </div>
+
+            <div class="breathing-visual" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <div class="feature-copy">
+              <h3>Make space between tasks.</h3>
+              <p>
+                A gentle visual cue reminds you to pause,
+                stretch, and choose what comes next.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="ritual section" id="ritual" aria-labelledby="ritual-title">
+      <div class="container ritual-grid">
+        <div class="ritual-heading reveal">
+          <p class="eyebrow">03 / Your daily ritual</p>
+          <h2 class="section-title" id="ritual-title">
+            Find your rhythm.<br />
+            <span>Keep it simple.</span>
+          </h2>
+
+          <p class="section-description">
+            You do not need a perfect routine.
+            Just a small place to begin.
+          </p>
+        </div>
+
+        <ol class="ritual-steps">
+          <li class="ritual-step reveal">
+            <span class="step-number" aria-hidden="true">01</span>
+            <div>
+              <h3>Pick one thing.</h3>
+              <p>
+                Choose a task you can give your attention to.
+                Everything else can wait.
+              </p>
+            </div>
+          </li>
+
+          <li class="ritual-step reveal">
+            <span class="step-number" aria-hidden="true">02</span>
+            <div>
+              <h3>Give it a little time.</h3>
+              <p>
+                Start a focused session and settle into your work,
+                one small step at a time.
+              </p>
+            </div>
+          </li>
+
+          <li class="ritual-step reveal">
+            <span class="step-number" aria-hidden="true">03</span>
+            <div>
+              <h3>Pause. Then begin again.</h3>
+              <p>
+                Take a breath, step away for a moment, and return
+                when you are ready.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE PRODUCT COLOURS -->
+    <section
+      class="explore section"
+      id="explore"
+      aria-labelledby="explore-title"
+    >
+      <div class="container explore-panel reveal">
+        <p class="eyebrow">04 / Make it yours</p>
+
+        <h2 class="section-title" id="explore-title">
+          Your space.<br />
+          <span>Your shade of calm.</span>
+        </h2>
+
+        <p class="section-description">
+          Explore three colour directions for the ORBIT concept.
+        </p>
+
+        <div class="color-options" role="group" aria-label="Product colour">
+          <button
+            class="color-swatch is-active"
+            type="button"
+            data-color="sage"
+            aria-label="Sage colour"
+            aria-pressed="true"
+          >
+            <span class="swatch-fill swatch-sage" aria-hidden="true"></span>
+            <span>Sage</span>
+          </button>
+
+          <button
+            class="color-swatch"
+            type="button"
+            data-color="sand"
+            aria-label="Sand colour"
+            aria-pressed="false"
+          >
+            <span class="swatch-fill swatch-sand" aria-hidden="true"></span>
+            <span>Sand</span>
+          </button>
+
+          <button
+            class="color-swatch"
+            type="button"
+            data-color="graphite"
+            aria-label="Graphite colour"
+            aria-pressed="false"
+          >
+            <span class="swatch-fill swatch-graphite" aria-hidden="true"></span>
+            <span>Graphite</span>
+          </button>
+        </div>
+
+        <p class="selected-color" aria-live="polite">
+          Selected finish: <span id="color-name">Sage</span>
+        </p>
+
+        <a class="button button-primary" href="#home">
+          View your ORBIT
+          <span aria-hidden="true">↗</span>
+        </a>
+
+        <p class="concept-note">
+          Concept preview only. This product is not available for purchase.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <a class="brand" href="#home" aria-label="ORBIT home">
+        <span class="brand-mark" aria-hidden="true">◎</span>
+        <span>orbit</span>
+      </a>
+
+      <p>A little space for what matters.</p>
+
+      <small>
+        © 2026 ORBIT Concept. Designed and developed by Abdurrahman Hilmy.
+      </small>
+    </div>
+  </footer>
+</body>
+</html>
